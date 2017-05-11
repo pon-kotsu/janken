@@ -31,9 +31,6 @@ return GU;
 
 
 
-
-
-
  /*　順番に出すマン
  let matches = 0;
   function action(opponent){
