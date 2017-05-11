@@ -6,14 +6,15 @@ const PA = 2;
 let matches = 0;
 function action(opponent){  
   matches = matches + 1;
-  let amari = matches % 2;
-  let isEven = amari == 0;
-  console.log(`${matches} % 2 = ${amari} : ${isEven}`);
+  const isEven = matches % 3 == 0;
+  let result = GU;
   if(isEven){
-    return GU;
+    return result = CHOKI;
   }
-return PA;
+    return result;
 }
+
+
 
 
 /* 表裏マン
@@ -27,6 +28,12 @@ return GU;
    }
  }
 */
+
+
+
+
+
+
  /*　順番に出すマン
  let matches = 0;
   function action(opponent){
