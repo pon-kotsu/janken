@@ -4,7 +4,7 @@ const PA = 2;
 
 
 let matches = 0;
-function action(opponent){  
+fanction actionAgainstOmoteUra2(){
   matches = matches + 1;
   const isEven = matches % 3 == 0;
   let result = GU;
@@ -13,6 +13,13 @@ function action(opponent){
   }
     return result;
 }
+
+function action(opponent){  
+ let result = actionAgainstOmoteUra2();
+
+  return result;
+}
+
 
 
 
