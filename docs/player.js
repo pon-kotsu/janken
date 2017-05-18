@@ -4,7 +4,9 @@ const PA = 2;
 let matches = 0;
 　
 function CountUp(){
-   matches = matches + 1;
+   
+ matches = matches + 1;
+  
 }
 
 //帰ってきた表裏マン　on-third
@@ -53,17 +55,19 @@ return result = GU;
   }
  }
 
- function action(opponent){
-console.log(opponent);
+ function action(oppornent){
+console.log(oppornent);
+console.log(matches);
 
-if(opponent =='fighter::choki-lover'){
+
+if(oppornent =='fighter::choki-lover'){
 result = CHOKIdaisukiman();
 }
-else if(opponent =='fighter::odd-even'){
+else if(oppornent =='fighter::odd-even'){
   
   result = actionOmoteUra();
 }
-else if(opponent =='fighter::on-third'){
+else if(oppornent =='fighter::on-third'){
   
   result = actionAgainstOmoteUra2();
 }
@@ -71,5 +75,6 @@ else{
   result = actionOrder();
 }
 return result;
+
 
  }
