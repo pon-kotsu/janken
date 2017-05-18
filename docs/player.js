@@ -4,7 +4,7 @@ const PA = 2;
 
 
 let matches = 0;
-fanction actionAgainstOmoteUra2(){
+function actionAgainstOmoteUra2(){
   matches = matches + 1;
   const isEven = matches % 3 == 0;
   let result = GU;
@@ -15,7 +15,7 @@ fanction actionAgainstOmoteUra2(){
 }
 
 function action(opponent){  
- let result = actionAgainstOmoteUra2();
+  let result = actionAgainstOmoteUra2();
 
   return result;
 }
